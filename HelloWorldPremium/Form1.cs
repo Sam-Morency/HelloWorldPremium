@@ -16,5 +16,15 @@ namespace HelloWorldPremium
         {
             InitializeComponent();
         }
+
+        private void frmHelloWorldPremium_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHelloWorld_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello, World!");
+        }
     }
 }
